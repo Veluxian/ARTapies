@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5432346548722464807
+  m_GuidHigh: 2965819854213958817
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5109833506916831598
+      m_GuidHigh: 6127014667345766330
+    m_SerializedTextureGuid:
+      m_GuidLow: 8751841632532959402
+      m_GuidHigh: 1449414707346714474
+    m_Size: {x: 0.06, y: 0.0900636}
+    m_SpecifySize: 1
+    m_Name: Zaniah final
+    m_Texture: {fileID: 2800000, guid: 759a10aac99879746aafa03bff5a1d14, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5496622944751893977
+      m_GuidHigh: 1687215790462638014
+    m_SerializedTextureGuid:
+      m_GuidLow: 13034603170573819418
+      m_GuidHigh: 6207037854641371048
+    m_Size: {x: 0.06, y: 0.08908333}
+    m_SpecifySize: 1
+    m_Name: Panzalegre final
+    m_Texture: {fileID: 2800000, guid: fa3b9e1a3685b4e4a8374de10ad42356, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5057302018903703217
+      m_GuidHigh: 5373346195477123731
+    m_SerializedTextureGuid:
+      m_GuidLow: 4576977503254100335
+      m_GuidHigh: 7148210888404127993
+    m_Size: {x: 0.06, y: 0.08908333}
+    m_SpecifySize: 1
+    m_Name: Ursila Placeholder final
+    m_Texture: {fileID: 2800000, guid: 126a396fb0ca3f84f950e81eee8b3363, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5210923117474966490
+      m_GuidHigh: 17667369938383596942
+    m_SerializedTextureGuid:
+      m_GuidLow: 13039079520712262027
+      m_GuidHigh: 16495402821138676056
+    m_Size: {x: 0.06, y: 0.08937063}
+    m_SpecifySize: 1
+    m_Name: Lady Valinete final
+    m_Texture: {fileID: 2800000, guid: 7620018b1dbdb4f45879f22c7871ebe4, type: 3}
