@@ -1,59 +1,84 @@
-# Unity
-#
-# This file is for Unity 2020.2+ projects.
-#
-# The Unity editor automatically generates a .gitignore file, you should use that instead.
-# If you are not using a recent version of Unity, you can use this file.
-#
-# You should commit Assets/ and ProjectSettings/ folders.
-# Your .sln file and .csproj files for Visual Studio should also be committed.
-#
-# You can see the officially recommended .gitignore here:
-# https://docs.unity3d.com/Manual/ExternalVersionControl.html
-
-# Exclude these files and folders
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
+# Archivos de compilación
+bin/
+obj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Ss]nape-shots/
 
-# Mac OS
-.DS_Store
-
-# Visual Studio
+# Configuración de Visual Studio
 .vs/
-*.csproj
-*.unityproj
-*.sln
 *.suo
 *.user
-*.userprefs
-*.pidb
-*.booproj
+*.userosscache
 *.sln.docstates
+
+# Archivos de depuración
 *.pdb
 *.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
 
-# Rider
+# Archivos generados por VS
+*.dbmdl
+*.bak
+*.backup
+*.log
+*.vspscc
+*_i.c
+*_p.c
+*_h.h
+*.ipch
+*.aps
+*.ncb
+*.cachefile
+*.tlog
+
+# Configuración de usuario
+*.userprefs
+
+# Archivos de dependencias
+*.lock.json
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Archivos de empaquetado y publicación
+*.apk
+*.aab
+*.app
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.msixupload
+*.msixuploadsymbol
+*.msixsym
+*.msixmap
+*.msixpkg
+*.msixbundle
+*.msix
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
 .idea/
+*.iml
 
-# Binaries
-*.dll
-*.so
-*.a
-*.lib
+# Archivos de test / cobertura
+TestResult*/
+*.coverage
+*.coveragexml
+*.testresult.xml
 
-# Unity
-*.unitypackage
-*.asset.meta
-*.meta
-
-# Other
-*.txt
-*.exe
-*.zip
-*.rar
-*.7z
+# Archivos de publicación de MAUI
+Platforms/**/bin/
+Platforms/**/obj/
