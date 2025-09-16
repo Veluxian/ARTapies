@@ -1,0 +1,59 @@
+# Unity
+#
+# This file is for Unity 2020.2+ projects.
+#
+# The Unity editor automatically generates a .gitignore file, you should use that instead.
+# If you are not using a recent version of Unity, you can use this file.
+#
+# You should commit Assets/ and ProjectSettings/ folders.
+# Your .sln file and .csproj files for Visual Studio should also be committed.
+#
+# You can see the officially recommended .gitignore here:
+# https://docs.unity3d.com/Manual/ExternalVersionControl.html
+
+# Exclude these files and folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Ss]nape-shots/
+
+# Mac OS
+.DS_Store
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.sln.docstates
+*.pdb
+*.mdb
+
+# Rider
+.idea/
+
+# Binaries
+*.dll
+*.so
+*.a
+*.lib
+
+# Unity
+*.unitypackage
+*.asset.meta
+*.meta
+
+# Other
+*.txt
+*.exe
+*.zip
+*.rar
+*.7z
