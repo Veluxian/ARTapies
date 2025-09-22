@@ -105,8 +105,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\NativeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\ARCoreRuntimeSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\ARCoreBeforeGetCameraConfigurationEventArgs.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\ArCameraConfigTargetFps.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\ArRecordingConfig.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\ArCameraConfigTargetFps.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\PointCloud\ARCoreXRDepthSubsystem.deprecated.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\NativeTypes\ArCloudAnchorState.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arcore@ceb0f44bcf5c\Runtime\Assembly.cs" />

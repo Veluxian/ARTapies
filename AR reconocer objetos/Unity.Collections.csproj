@@ -76,8 +76,8 @@
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\UnsafeParallelHashMap.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\UnsafeHashMap.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\xxHash3.StreamingState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\FixedStringMethods.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\FixedStringMethods.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\FixedString.gen.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\NativeSort.cs" />
     <Compile Include="Library\PackageCache\com.unity.collections@d49facba0036\Unity.Collections\DataStreamWriter.cs" />

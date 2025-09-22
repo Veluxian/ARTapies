@@ -77,8 +77,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\MutableRuntimeReferenceImageLibraryExtensions.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\ARBoundingBoxManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\ARRaycastManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\Deprecated\ARPlanesChangedEventArgs.deprecated.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\ARRaycastManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\Textures\IUpdatableTexture.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\ARPlane.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@ddd5a77596e0\Runtime\ARFoundation\ARPlaneBoundaryChangedEventArgs.cs" />

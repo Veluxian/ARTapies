@@ -1397,13 +1397,13 @@
       <Project>{98EE9471-4AAB-B1A8-0C76-0FA33C3A9B87}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{62A2ABA0-A3FC-EF87-F0FD-797691F30E68}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{67819173-D4AE-DFB3-63A5-A2FD0D3CD6F1}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
+      <Project>{62A2ABA0-A3FC-EF87-F0FD-797691F30E68}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{F8B552A7-34BA-D424-47FE-0C35DFF07573}</Project>
@@ -1509,13 +1509,13 @@
       <Project>{36FCD4EE-5AC6-ECF0-6768-BF9F4039FF0F}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{8773C8C2-AC3B-1161-905F-03B8862ED61A}</Project>
-      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.Simulation.csproj">
       <Project>{D83AFA73-8ACE-088C-DA48-F50EB141FF9D}</Project>
       <Name>Unity.XR.Simulation</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
+      <Project>{8773C8C2-AC3B-1161-905F-03B8862ED61A}</Project>
+      <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
       <Project>{E4EE6041-99AB-36E1-E2A6-16342F6ADBA8}</Project>

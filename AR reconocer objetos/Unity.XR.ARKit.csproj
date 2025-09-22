@@ -123,8 +123,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\Frameworks\Foundation\NSData.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\Camera\HighResolutionCpuImagePromise.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\Camera\ARKitCpuImageApi.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\OSVersion.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\ARKitErrorCode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\OSVersion.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\Frameworks\Foundation\NSMutableData.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\CoreLocationErrorCode.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arkit@73b2f8bfe9b6\Runtime\ARKitSessionDelegate.cs" />

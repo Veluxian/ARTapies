@@ -915,13 +915,13 @@
       <Project>{AC04E307-0B0B-950F-4E9E-71357388339F}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
-      <Project>{88D9C75D-2668-ACE3-A5DC-D6407302A02E}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{49F32A32-6A02-BB39-C596-10BDDF4064BC}</Project>
       <Name>Unity.VisualScripting.Flow.Player</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Player.csproj">
+      <Project>{88D9C75D-2668-ACE3-A5DC-D6407302A02E}</Project>
+      <Name>Unity.RenderPipelines.Core.Runtime.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
       <Project>{8FB7DDEE-87E2-FEC3-8E13-20D68E3C000B}</Project>

@@ -675,8 +675,8 @@
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Generation\Targets\BuiltIn\Editor\ShaderGraph\Targets\BuiltInCanvasSubTarget.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Interfaces\IMayRequireTransform.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Nodes\Math\Vector\ReflectionNode.cs" />
-    <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Legacy\SpriteUnlitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Nodes\Input\PropertyNode.cs" />
+    <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Legacy\SpriteUnlitMasterNode1.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Nodes\Channel\FlipNode.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Drawing\Inspector\PropertyDrawers\PositionNodePropertyDrawer.cs" />
     <Compile Include="Library\PackageCache\com.unity.shadergraph@1f53f6b578bf\Editor\Data\Nodes\Input\Scene\ScreenNode.cs" />

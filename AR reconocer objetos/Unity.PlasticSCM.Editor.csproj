@@ -91,8 +91,8 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\Merge\Developer\DirectoryConflicts\MovedEvilTwinMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Developer\GenericProgress.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\UI\DockEditorWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Developer\ShelvedChangesNotification.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\AssetsUtils\Processor\UVCSAssetsProcessor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Developer\ShelvedChangesNotification.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\AssetOverlays\Cache\BuildPathDictionary.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\Branch\BranchListViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\UVCSToolbar\PopupWindow\UncontrolledPopupWindow.cs" />
@@ -380,9 +380,9 @@
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Settings\DiffAndMergeOptionsFoldout.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\Changesets\ChangesetExplorerView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\UI\GetWindowIfOpened.cs" />
-    <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\UVCSToolbar\PopupWindow\Operations\ControlledPopupOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\PendingChanges\ChangeCategoryTreeViewItem.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\Locks\LocksTab.cs" />
+    <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\UVCSToolbar\PopupWindow\Operations\ControlledPopupOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\CloudDrive\Welcome\WelcomeView.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\Views\PendingChanges\Dialogs\EmptyCommentDialog.cs" />
     <Compile Include="Library\PackageCache\com.unity.collab-proxy@ab839cc7d2ad\Editor\ExternalLink.cs" />
