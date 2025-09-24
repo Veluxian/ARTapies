@@ -1,17 +1,4 @@
-# Unity
-#
-# This file is for Unity 2020.2+ projects.
-#
-# The Unity editor automatically generates a .gitignore file, you should use that instead.
-# If you are not using a recent version of Unity, you can use this file.
-#
-# You should commit Assets/ and ProjectSettings/ folders.
-# Your .sln file and .csproj files for Visual Studio should also be committed.
-#
-# You can see the officially recommended .gitignore here:
-# https://docs.unity3d.com/Manual/ExternalVersionControl.html
-
-# Exclude these files and folders
+#Exclude these files and folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -20,14 +7,12 @@
 [Ll]ogs/
 [Ss]nape-shots/
 
-# Mac OS
+#Mac OS
 .DS_Store
 
-# Visual Studio
+#Visual Studio
 .vs/
-*.csproj
 *.unityproj
-*.sln
 *.suo
 *.user
 *.userprefs
@@ -37,27 +22,45 @@
 *.pdb
 *.mdb
 
-# Rider
+#Rider
 .idea/
 
-# Binaries
+#Binaries
 *.dll
 *.so
 *.a
 *.lib
 
-# Unity
+#Unity
 *.unitypackage
 *.asset.meta
 *.meta
 
-# Other
+#Other
 *.txt
 *.exe
 *.zip
 *.rar
 *.7z
 
-# .NET MAUI specific
-**/bin/
-**/obj/
+#Common build files that should be ignored
+*.apk
+*.aab
+*.aar
+*.keystore
+
+#Exclude the specific build and export folders
+/AndroidBuild/
+/iOSBuild/
+/WindowsBuild/
+
+#Exclude other common files
+/Assets/AssetStoreTools/
+/Assets/Editor/ScriptTemplates/
+/ProjectSettings/ProjectVersion.txt
+/Assets/Editor/Cache/
+/Assets/StreamingAssets/
+
+#If you need to include a specific file that is
+#otherwise ignored by the patterns above, use the following syntax:
+#!/path/to/file.ext
