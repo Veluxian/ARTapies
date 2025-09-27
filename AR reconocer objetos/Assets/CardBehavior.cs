@@ -4,7 +4,7 @@ using UnityEngine.XR.ARSubsystems;
 
 public class CardBehavior : MonoBehaviour
 {
-    // Método que se llama cuando la imagen se detecta, actualiza o se pierde
+    // Método que se llama cuando la imagen se detecta, se actualiza o se pierde
     public void OnImageUpdated(ARTrackedImage trackedImage)
     {
         if (trackedImage == null) return;
@@ -14,7 +14,7 @@ public class CardBehavior : MonoBehaviour
 
         if (isTracking)
         {
-            // Mantener el cubo pegado a la carta
+            // Mantener el cubo alineado con la carta
             transform.SetPositionAndRotation(
                 trackedImage.transform.position,
                 trackedImage.transform.rotation
