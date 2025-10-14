@@ -1,0 +1,6 @@
+{
+    "name": "ARTapies_prototype.Managers",
+    "references": [
+        "ARTapies_prototype.Entities"
+    ]
+}
