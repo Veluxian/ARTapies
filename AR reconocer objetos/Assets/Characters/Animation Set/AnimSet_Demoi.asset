@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94a26bd99d1ebd468fe084aa31177d8, type: 3}
+  m_Name: AnimSet_Demoi
+  m_EditorClassIdentifier: Assembly-CSharp::AnimSet
+  Idle: {fileID: -3100369314251171874, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
+  Attack: {fileID: 6720303635017113406, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
+  Hit: {fileID: 3651350446308603674, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
