@@ -1,0 +1,9 @@
+{
+    "name": "ARTapies_prototype.Managers",
+    "references": [
+        "ARTapies_prototype.Entities",
+        "ARTapies_prototype.Components",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems"
+    ]
+}
