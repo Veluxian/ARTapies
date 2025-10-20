@@ -10,8 +10,7 @@ Busca transformar la experiencia del juego de mesa *Tartapies* mediante **realid
 - Desarrollar competencias profesionales en **software, bases de datos, modelado 3D y gestión ágil**.
 
 ## 🛠️ Tecnologías
-- **Unity** (motor principal de AR y 3D)
-- **Bases de datos SQL** (gestión de estados y datos del juego)
+- **Unity** (motor principal de AR y 3D
 - **Metodología SCRUM** (planificación y control del proyecto)
 - **Modelado 3D y animaciones**
 
