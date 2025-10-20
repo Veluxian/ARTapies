@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prueba4.unity
     guid: a0128223b50c97745a7bd86bfde9a243
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5255614bc92a886498e675cfe0f930a1, type: 2}
-    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 351d711f426db8948aa821479f8039ab, type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d0887db040797cc4d8ff35d55e51d558, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 0f545350aea982445879e44e56f9b3f6, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: d78cf23ef94f7b647acb622081c722a2, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5f1ef59c6f0dde8438aac4472df53cf4, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b3ceca767e9c131479e816ac60184dac, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ed44eeae03760284baea15222dc93c77, type: 2}
   m_UseUCBPForAssetBundles: 0
