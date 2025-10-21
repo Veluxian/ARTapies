@@ -9,42 +9,23 @@ public class DemoInput : MonoBehaviour
 {
     private Attackable _atk;
 
-    void Awake()
-    {
-        _atk = GetComponent<Attackable>();
-        if (_atk == null)
-            Debug.LogError("[DemoInput] Falta componente Attackable en el mismo objeto.");
-    }
+    void Awake() => _atk = GetComponent<Attackable>();
 
     void Update()
     {
-        // --- Nuevo Input System ---
 #if ENABLE_INPUT_SYSTEM
         if (Keyboard.current != null)
         {
-            if (Keyboard.current.jKey.wasPressedThisFrame)
-            {
-                Debug.Log("[DemoInput] J pressed → Attack()");
-                _atk.Attack();
-            }
-            if (Keyboard.current.kKey.wasPressedThisFrame)
-            {
-                Debug.Log("[DemoInput] K pressed → ReceiveHit()");
-                _atk.ReceiveHit();
-            }
+            if (Keyboard.current.jKey.wasPressedThisFrame) _atk.Attack();      // J
+            if (Keyboard.current.kKey.wasPressedThisFrame) _atk.ReceiveHit();  // K
+            if (Keyboard.current.vKey.wasPressedThisFrame) _atk.Victory();     // V
+            if (Keyboard.current.bKey.wasPressedThisFrame) _atk.Defeat();      // B
         }
 #else
-        // --- Input clásico ---
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            Debug.Log("[DemoInput] J pressed → Attack()");
-            _atk.Attack();
-        }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            Debug.Log("[DemoInput] K pressed → ReceiveHit()");
-            _atk.ReceiveHit();
-        }
+        if (Input.GetKeyDown(KeyCode.J)) _atk.Attack();
+        if (Input.GetKeyDown(KeyCode.K)) _atk.ReceiveHit();
+        if (Input.GetKeyDown(KeyCode.V)) _atk.Victory();
+        if (Input.GetKeyDown(KeyCode.B)) _atk.Defeat();
 #endif
     }
 }
