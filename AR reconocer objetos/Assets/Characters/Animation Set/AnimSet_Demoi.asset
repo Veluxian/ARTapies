@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: AnimSet_Demoi
   m_EditorClassIdentifier: Assembly-CSharp::AnimSet
   Idle: {fileID: -3100369314251171874, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
-  Attack: {fileID: 6720303635017113406, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
-  Hit: {fileID: 3651350446308603674, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
+  Attack: {fileID: 0}
+  Hit: {fileID: 0}
+  Victory: {fileID: 6720303635017113406, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
+  Defeat: {fileID: 3651350446308603674, guid: d00caed9c520c474886cfb49b4ff5d64, type: 3}
