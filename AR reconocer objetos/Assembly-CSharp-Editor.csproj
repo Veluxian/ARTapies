@@ -1521,6 +1521,22 @@
       <Project>{93EA63D1-4817-3E0B-78EB-41724A64DC8A}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="ARTapies_prototype.Interfaces.csproj">
+      <Project>{49C1574A-8423-C6C4-A439-FAE9FA511F5F}</Project>
+      <Name>ARTapies_prototype.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARTapies_prototype.Components.csproj">
+      <Project>{5B054DBF-E38A-1176-0D4E-2E426DF1FE67}</Project>
+      <Name>ARTapies_prototype.Components</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARTapies_prototype.Managers.csproj">
+      <Project>{65F92F1C-5B8C-01C3-CCD0-5692554070C4}</Project>
+      <Name>ARTapies_prototype.Managers</Name>
+    </ProjectReference>
+    <ProjectReference Include="ARTapies_prototype.Entities.csproj">
+      <Project>{A7781B42-288F-36F5-6556-890733816598}</Project>
+      <Name>ARTapies_prototype.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

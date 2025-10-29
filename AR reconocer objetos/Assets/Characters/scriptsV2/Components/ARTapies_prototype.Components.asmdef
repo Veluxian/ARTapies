@@ -1,0 +1,6 @@
+{
+    "name": "ARTapies_prototype.Components",
+    "references": [
+        "ARTapies_prototype.Interfaces"
+    ]
+}
